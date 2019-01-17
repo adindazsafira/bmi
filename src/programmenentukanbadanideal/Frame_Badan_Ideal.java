@@ -41,9 +41,11 @@ public class Frame_Badan_Ideal extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(204, 0, 0));
         jLabel2.setText("Height (cm)");
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(204, 0, 0));
         jLabel3.setText("Weight (kg)");
 
         txtWeight.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
@@ -60,6 +62,7 @@ public class Frame_Badan_Ideal extends javax.swing.JFrame {
             }
         });
 
+        btnCek.setBackground(new java.awt.Color(255, 255, 0));
         btnCek.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btnCek.setText("Check");
         btnCek.addActionListener(new java.awt.event.ActionListener() {
@@ -72,17 +75,21 @@ public class Frame_Badan_Ideal extends javax.swing.JFrame {
         txtBMI.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(204, 0, 0));
         jLabel4.setText("Index");
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(204, 0, 0));
         jLabel1.setText("Body Mass Index Calculator");
 
         txtYourbody.setEditable(false);
         txtYourbody.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(204, 0, 0));
         jLabel5.setText("Your Body");
 
+        Breset.setBackground(new java.awt.Color(255, 255, 0));
         Breset.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Breset.setText("Reset");
         Breset.addActionListener(new java.awt.event.ActionListener() {
